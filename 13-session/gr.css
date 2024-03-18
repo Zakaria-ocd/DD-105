@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(25, 191, 172);
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+form{
+  width:50%;
+  background-color: cornflowerblue;
+  height: 70vh;
+  border-radius: 5%;
+  margin-top: 70px;
+}
+form div{
+  display: flex;
+  flex-direction: column;
+  height:260px;
+  width: 100%;
+  align-items: center;
+}
+form h1{
+  text-align: center;
+}
+
+.rouge{
+  color: red;
+}
+form input{
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  padding-left: 10px;
+  font-size: 1.02rem;
+  
+}
+.success{
+  border: 3px solid green;
+}
+.danger{
+  border: 3px solid red;
+}
+form button{
+  margin-left: 65%;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 1.1rem;
+  color:cornflowerblue;
+  font-weight: 600;
+}
