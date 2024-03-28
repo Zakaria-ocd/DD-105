@@ -57,3 +57,4 @@ for (let i = 0; i < 5; i++)
     text2 = "The number is " + i ;
     console.log(text2)
 }
+

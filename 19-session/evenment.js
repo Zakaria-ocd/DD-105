@@ -24,6 +24,9 @@ const stagiaires = getData()
   )
   .catch(function (error) {
     console.log(error);
+  })
+  .finally(function(){
+    console.log("Finally!!!!")
   });
 // Producteur de la Promise
 
@@ -37,6 +40,8 @@ function getData() {
     }
   });
 }
+//gestion des exceotions//
+
 function getNotes() {
   return new Promise(function (resolve, reject) {
     resolve([
@@ -52,16 +57,34 @@ function getNotes() {
 
     ])
   })}
-document.querySelector(".btn").addEventListener("click",function(){
-  stgr=satagiairelistNotes.filter(function(item){
-    return item.idStagiaire===3
-  })
-  console.log(stgr)
-})
-document.querySelector(".btn1").addEventListener("click",function(){
-  let dogA=fetch("").then(function(response){
-    return response.json();
-  }).then(function(data){
-    console.log(data)
-  })
-})
+  async function executer(){
+    let vNote=4;
+    try{
+      const stgrs=await getData();
+      const notes=await getNotes();
+      console.log(stgrs);
+      console.log(notes);
+      //erreur personalisé
+      if(vNote<5){
+        throw("la note est inf à 5")
+      }
+  }catch{
+    console.log("error")
+  }finally{
+    console.log("skdjfskdjf")
+  }
+  }
+  executer()
+ document.querySelector(".btn").addEventListener("click",function(){
+   stgr=satagiairelistNotes.filter(function(item){
+     return item.idStagiaire===3
+   })
+   console.log(stgr)
+ })
+ document.querySelector(".btn1").addEventListener("click",function(){
+   let dogA=fetch("").then(function(response){
+     return response.json();
+   }).then(function(data){
+     console.log(data)
+   })
+ })

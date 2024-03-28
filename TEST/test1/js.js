@@ -1,8 +1,18 @@
-let a="12"
-let b=2
-console.log(a+b)
-console.log(typeof(b))
-console.log(a instanceof String)
-console.log("JavaScript" instanceof String);
-console.log(new Number("JavaScript") instanceof Number);
-let c = null
+let notes = [11, 14, 15, 12, 19];
+function fun(){
+    let a=3
+    let b=2
+    return a*b
+}
+// let a=[1,3,3,4]
+// notes=[...a]
+// console.log(a)
+// console.log(notes)
+// notes.push(6)
+// console.log(a)
+// console.log(notes)
+let x=l(13,14)
+console.log(x)
+function l(a,b){
+    return a*b
+}
