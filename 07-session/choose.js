@@ -20,7 +20,7 @@ let pickNumber=(e)=>{
         let score="your score is"+k
         document.querySelector(".p2").textContent=score
         k=100
+        
     }
-
 }
 document.querySelector("button").addEventListener("click",pickNumber)

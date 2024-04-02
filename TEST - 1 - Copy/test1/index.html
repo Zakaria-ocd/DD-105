@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestion de produits</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-success text-center">Liste des achats</h1>
+      <form action="" id="productsForm">
+        <div class="mb-3">
+          <label for="code" class="form-label">Code</label>
+          <input type="text" class="form-control" name="code" id="code" />
+          <button class="btn-search">RECHERCHER</button>
+        </div>
+
+        <div class="mb-3">
+          <label for="titre" class="form-label">Saisissez votre acitvité</label>
+          <select name="acitvité" class="form-select" id="categorie"></select>
+        </div>
+
+        <div class="mb-3">
+          <label for="description" class="form-label">Saisissez votre nombre de jour</label>
+          <input
+            type="number"
+            class="form-control"
+            name="description"
+            id="description"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="prix" class="form-label">Saisissez votre date de début</label>
+          <input type="date" class="form-control" name="prix" id="prix" />
+        </div>
+
+        
+
+        <div class="mb-3">
+          <button class="btn btn-primary" id="sauvegarder">sauvegarder</button>
+          <button class="btn btn-primary" id="vider">vider</button>
+        </div>
+        <div class="mb-3">
+          <button id="afficher-data" class="btn btn-secondary">Afficher</button>
+        </div>
+      </form>
+
+      <table id="achats-table" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Code</th>
+            <th scope="col">Titre</th>
+            <th scope="col">Description</th>
+            <th scope="col">Prix</th>
+            <th scope="col">Catégorie</th>
+          </tr>
+        </thead>
+        <tbody id="tdata"></tbody>
+      </table>
+
+      <div class="mb-3">
+        <button id="supprimer" class="btn btn-danger">Supprimer</button>
+      </div>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>

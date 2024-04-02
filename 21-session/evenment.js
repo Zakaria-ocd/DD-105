@@ -1,5 +1,3 @@
-
-document.querySelector('')
 document.getElementById("btn-load").addEventListener("click", function (e) {
   e.preventDefault()
   let user;
@@ -12,8 +10,8 @@ document.getElementById("btn-load").addEventListener("click", function (e) {
         data =JSON.parse(this.response)
         user = data.user
         content="<ul>";
-        content+="<li>user name : $(user.nom)</li>";
-        content+="<li>user age : $(user.age)</li>";
+        content+= '<li>user name : $(user.nom)</li>';
+        content+='<li>user age : $(user.age)</li>';
         content+="</ul>";
         document.getElementById("container").innerHTML=content
   };

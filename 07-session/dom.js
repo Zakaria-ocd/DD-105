@@ -1,7 +1,8 @@
+console.log(document)
 console.log(document.querySelector(".nom").value);
-document.querySelector(".nom").value="Ahmed";
-console.log(document.querySelector(".age").value);
-console.log(typeof(document.querySelector(".age").value));
+document.querySelector(".nom").value="SDFDSF";
+console.log(document.querySelector(".age111").value);
+console.log(typeof(document.querySelector(".age111").value));
 let a;
 a=Number(document.querySelector(".number1").value);
 let b;
@@ -10,28 +11,28 @@ let c;
 c=a+b
 document.querySelector(".number3").value=c;
 if (a>20){
-    document.querySelector(".number1").style.backgroundColor="orange";
+    document.querySelector(".number1").style.backgroundColor="yellow";
 }
 if (b>20){
     document.querySelector(".number2").style.backgroundColor="orange";
 }
-// console.log(document.head)
-// console.log(document.body)
-//  let calculeClick= function(e){
-//      e.preventDefault();
-//      console.log("You clicked me!");
-//  }
-//  document.querySelector(".btn-calculer").addEventListener("click",calculeClick);
-// document.querySelector(".btn-calculer").
-// addEventListener("click",function(e){
-//     e.preventDefault();
-//     console.log("You clicked me!");
-// });
-// document.querySelector(".btn-calculer").
-// addEventListener("click",(e)=>{
-//     e.preventDefault();
-//     console.log("You clicked me!");
-// });
+console.log(document.head)
+console.log(document.body)
+ let calculeClick= function(e){
+     e.preventDefault();
+     console.log("You clicked me!");
+ }
+ document.querySelector(".btn-calculer").addEventListener("click",calculeClick);
+document.querySelector(".btn-calculer").
+addEventListener("click",function(e){
+    e.preventDefault();
+    console.log("You clicked me!");
+});
+document.querySelector(".btn-calculer").
+addEventListener("click",(e)=>{
+    e.preventDefault();
+    console.log("You clicked me!");
+});
 
 let  btnC=document.querySelector(".btn-calculer");
 btnC.style.borderRadius="10px"
@@ -60,13 +61,13 @@ console.log(document.querySelector("input"))
 console.log(document.querySelectorAll("input"))
 let vInput=document.querySelectorAll("input");
 // console.log(vInput);
-// vInput[1].style.backgroundColor="tomato"
+vInput[1].style.backgroundColor="aqua"
 for (let i=5 ; i<=7 ; i++){
     vInput[i].style.backgroundColor="tomato";
-    vInput[i].style.color="green"
+    vInput[i].style.color="green";
 }
-// console.log(vInput[1]);
-// console.log(vInput.length)
+console.log(vInput[1]);
+console.log(vInput.length);
 document.querySelector(".btn-calculer").style.border="solid 3px green";
 document.querySelector(".btn-calculer").style.marginTop="10px";
 document.querySelector(".btn-calculer").style.marginBottom="20px";
@@ -76,15 +77,17 @@ document.querySelector(".btn-calculer").style.backgroundColor="skyblue";
 let text1=document.getElementById("test1");
 text1.textContent="infre";
 text1.style.color="yellow";
-console.log(document.getElementsByClassName("test2"))
-document.getElementsByClassName("test2")[2].style.backgroundColor="red";
+let tt=document.getElementsByClassName("test2")
+console.log(tt)
+tt[2].style.backgroundColor="red";
 for (let i=0;i<=document.getElementsByClassName("test2").length-1;i++){
     document.getElementsByClassName("test2")[i].style.border="5px solid gray"
 }
-// console.log(document.title)
-// document.title="lkqjlkj"
-// console.log(document.getElementsByTagName("input"));
-// let titH=document.getElementsByTagName("input");
-// for (i=0;i<=titH.length-1;i++){
-//     titH[i].style.fontSize="0.4rem"
-// }
+console.log(document.title)
+document.title="lkqjlkj"
+console.log(document.title)
+console.log(document.getElementsByTagName("input"));
+let titH=document.getElementsByTagName("input");
+for (i=0;i<=titH.length-1;i++){
+    titH[i].style.fontSize="0.8rem"
+}

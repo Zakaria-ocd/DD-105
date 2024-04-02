@@ -1,0 +1,26 @@
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusantium vitae laboriosam qui adipisci veniam unde reprehenderit et dolorem nihil. Blanditiis facilis facere pariatur amet rerum expedita culpa voluptatibus optio.
+[abc]
+[a-zA-Z]
+[a-z][b]
+[a-z][a-z][abc]
+\b[a-é][1,5],b
+Les éxpressions régulières
+ZZ102
+DD101
+DD102
+DD103
+DD 104
+DD105
+ID106
+[A-Z]{2}[0-9]{3}
+[I,D][D][0-9]{3}
+amine 
+amineee
+amin
+? (0,1)
+*(0,n)
++(1,n)
+[a-z]{3}
+29/04/2021
+29-04-2021
+29-04-2021

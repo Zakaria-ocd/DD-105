@@ -54,7 +54,7 @@ if (a!==b) {
 else{
     console.log("hello")
 }
-let statu="étudiant"
+let statut="étudiant"
 let age = 20
 if (statut =="étudiant" || age === 20){
     console.log("OKKK")

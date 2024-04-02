@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(48, 5, 88);
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    font-family: Helvetica, sans-serif;
+}
+*{
+    color: white;
+    font-weight: bold;
+
+}
+form{
+    background-color: rgb(49, 186, 186);
+    width: 40%;
+    height: 400px;
+    border-radius: 15%;
+}
+label{
+    font-weight: bold;
+    color: white;
+}
+.div1{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.5vw;
+    justify-content: space-between;
+    height: 300px;
+}
+input{
+    width: 15vw;
+    border-radius: 10px;
+    outline: none;
+    height: 4.4vh;
+    padding-left:10px;
+    font-weight: 100;
+    border:1px solid rgb(49, 186, 186);
+    background-color: rgb(48, 5, 88);
+    ;
+}
+.div2 button{
+    background-color: rgb(48, 5, 88);
+    color: white;
+    outline: none;
+    width: 7vw;
+    height: 5vh;
+    border-radius: 20px;
+    position: relative;
+    top: 2vh;
+    border: 1px solid rgb(48, 5, 88);
+}
+.div2{
+    display: flex;
+    gap: 20px;
+}
+.div3 {
+    margin-left: 5vw;
+    margin-top: 6vh;
+}
+.div3 table{
+    border-collapse: collapse;
+}
+.div3 th{
+    border: 2px solid  rgb(146, 34, 34);
+    border-collapse: collapse;
+    width: 100px;
+}
+.div3 td{
+border: 2px solid rgb(146, 34, 34);
+    font-weight: lighter;
+    text-align: center;
+}
+.delete{
+    width: 5vw;
+    background-color: rgb(49, 186, 186);
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 4.5vh;
+}
