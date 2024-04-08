@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+<body>
+    <h1>Chosissez votre acitvités</h1>
+    <div class="container">
+        <form action="">
+            <div class="contSearch">
+                <label>Saisir votre ID</label>
+                <div>
+                    <input class="inputId inpt" type="text">
+                    <button class="btn-search">Search</button>
+                </div>
+            </div>
+            <div class="contAjouter">
+                <label>Votre acitvité</label>
+                <select class="select-Acivite"></select>
+                <label>Nombre de jours</label>
+                <input class="nbrJours inpt" type="number" min="1" max="30">
+                <label>Date début</label>
+                <input class="dateDebut inpt" type="date">
+                <div class="contVlide">
+                    <input class="checkValide valideInpt" type="checkbox">
+                    <label>Validé</label>
+                </div>
+                <button class="btn-ajouter">Ajouter</button>
+            </div>
+        </form>
+        <div class="table_btns">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Prenom</th>
+                    <th>Nom</th>
+                    <th>acitvité</th>
+                    <th>Nombre de jours</th>
+                    <th>Date début</th>
+                    <th>Validation</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div class="btn-table">
+            <button class="btn-supprimer">Supprimer</button>
+            <button class="btn-modifier">Modifier</button>
+        </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <script src="js.js"></script>
+</body>
+</html>

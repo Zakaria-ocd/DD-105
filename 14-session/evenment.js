@@ -23,7 +23,7 @@ console.log(stagiaire);
 stagiaire.nom = "Ahmed";
 stagiaire.branche="DD"
 console.log(stagiaire);
-delete stagiaire.groupe;
+delete stagiaire;
 console.log(stagiaire);
 const sttt=st.forEach((elem)=>{
   console.log(elem) 
