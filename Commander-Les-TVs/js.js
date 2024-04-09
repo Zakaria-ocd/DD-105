@@ -50,7 +50,6 @@ function remplirTVs(){
     request.open("GET","test.json",true)
     request.onreadystatechange=function(){
         if(this.readyState==4 && this.status==200){
-            console.log(this.responseText)
             tvs=(JSON.parse((this.responseText))).tvs
             let option=""
             option+=`<option>Choisir un TV</option>`
@@ -110,7 +109,6 @@ function calculerPrixHT(){
         prixHT+=prixTVsSelected*quantiteTvsSelected
         
 }
-console.log(prixHT)
 document.querySelector(".prixHT").textContent=prixHT+" DHS"
 calculerPrixTTC()
 prixHT=0
