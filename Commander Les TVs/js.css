@@ -91,3 +91,7 @@ p{
   border:3px solid rgb(11, 127, 52);
   background-color:rgb(128, 176, 137) ;
 } 
+img{
+  width: 150px;
+  height: 70px;
+}

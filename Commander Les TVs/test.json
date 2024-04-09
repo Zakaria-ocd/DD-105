@@ -1,8 +1,8 @@
 {
     "tvs": [
-        {"nom": "SAMSUNG QLED QE65Q80AA", "prix": 17999, "taille": 65, "image": "images/img1.png"},
-        {"nom": "TCL QLED 55C825", "prix": 6100, "taille": 42, "image": "images/img2.png"},
-        {"nom": "SONY OLED XR-75X90J", "prix": 25000, "taille": 52, "image": "Images/img3.png"},
-        {"nom": "LG OLED 77C1PVA", "prix": 9000, "taille": 65, "image": "images/img4.png"}
+        {"nom": "SAMSUNG QLED QE65Q80AA", "prix": 17999, "taille": 65, "image": "images/img1.jpg"},
+        {"nom": "TCL QLED 55C825", "prix": 6100, "taille": 42, "image": "images/img2.jpeg"},
+        {"nom": "SONY OLED XR-75X90J", "prix": 25000, "taille": 52, "image": "images/img3.jpeg"},
+        {"nom": "LG OLED 77C1PVA", "prix": 9000, "taille": 65, "image": "images/img4.jpeg"}
     ]
 }

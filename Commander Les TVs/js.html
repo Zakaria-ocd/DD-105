@@ -11,8 +11,7 @@
     <div class="container">
         <form action="">
             <label for="">TVs</label><br><br>
-            <select type="text" class="selectTVs">
-            <option value="Choisir un TV">Choisir un TV</option></select>
+            <select type="text" class="selectTVs"></select>
             <p>Select a tv</p>
             <label for="">Quantité</label><br><br>
             <input  maxlength="2" class="inputQuantite" max="10" type="number" min="0">
@@ -21,7 +20,7 @@
         </form>
         <div class="panierCommandes">
         <h1>Panier de commandes</h1>
-        <table>
+        <table class="tableCommandes">
             <thead>
                 <tr>
                     <th>REFERENCE</th>
@@ -31,14 +30,15 @@
                 </tr>
             </thead>
             <tbody></tbody>
-        </table><br><br>
+        </table>
+        <br><br>
         <div class="ht">
             <div>Total HT</div>
-            <div>0 DHS</div>
-        </div class>
+            <div class="prixHT">0 DHS</div>
+        </div>
         <div class="ttc">
             <div>Total TTC</div>
-            <div>0 DHS</div>
+            <div class="prixTTC">0 DHS</div>
         </div>
         </div><br><br>
         <button>Commender</button>
