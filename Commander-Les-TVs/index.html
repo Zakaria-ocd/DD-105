@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+<body>
+    <h1>Commander Les TVs</h1>
+    <div class="container">
+        <form action="">
+            <label for="">TVs</label><br><br>
+            <select type="text" class="selectTVs"></select>
+            <p>Select a tv</p>
+            <label for="">Quantité</label><br><br>
+            <input  maxlength="2" class="inputQuantite" max="10" type="number" min="0">
+            <p>Select quantity between 1 and 10</p>
+            <button class="ajouterPanier">Ajouter au panier</button>     
+        </form>
+        <div class="panierCommandes">
+        <h1>Panier de commandes</h1>
+        <table class="tableCommandes">
+            <thead>
+                <tr>
+                    <th>REFERENCE</th>
+                    <th>QUANTITE</th>
+                    <th>IMAGE</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <br><br>
+        <div class="ht">
+            <div>Total HT</div>
+            <div class="prixHT">0 DHS</div>
+        </div>
+        <div class="ttc">
+            <div>Total TTC</div>
+            <div class="prixTTC">0 DHS</div>
+        </div>
+        </div><br><br>
+        <button>Commender</button>
+    </div>
+    
+
+
+
+
+
+    <script src="js.js"></script>
+</body>
+</html>
