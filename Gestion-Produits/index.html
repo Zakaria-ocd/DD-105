@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des produits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="formProduits" style="display: none;">
+        <label for="">Code produit</label><br>
+        <input id="codeProduit" min="1" required type="number"><br>
+        <p>Saisir le code</p>
+        <label for="">Titre</label><br>
+        <input required id="titreProduit" type="text" ><br>
+        <p>Saisir le titre</p>
+        <label for="">Description</label><br>
+        <input id="descriptionProduit" required type="text"><br>
+        <p>Saisir la description</p>
+        <label for="">Prix</label><br>
+        <input id="prixProduit" type="number" required><br>
+        <p>Saisir le prix</p>
+        <label for="">Catégorie</label><br>
+        <input id="catégorieProduit" type="text" required><br><br>
+        <p>Saisir la catégorie</p>
+        <button id="sauvegarder" >Sauvegarder</button>
+        <button id="annuler">Annuler</button>
+        <button id="vider" type="reset">Vider</button>
+    </form><br><br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Code produit</th>
+                <th>Titre</th>
+                <th>Description</th>
+                <th>Prix</th>
+                <th>Catégorie</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table><br><br>
+    <button id="ajouter">Ajouter</button>
+    <button id="supprimer">Supprimer</button><br><br>
+    <button id="categories">Afficher liste des catégories</button>
+    <div id="listeCategories"></div>
+    <script src="script.js"></script>
+</body>
+</html>

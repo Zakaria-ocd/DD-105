@@ -1,0 +1,20 @@
+.danger{
+    background-color: rgb(143, 8, 8);
+    border: 3px solid rgb(143, 8, 8);
+    outline: none;
+    border-radius: 8px;
+}
+.success{
+    background-color: rgb(5, 118, 34);
+    border: 3px solid rgb(5, 118, 34);
+    outline: none;
+    border-radius: 8px;
+}
+#formProduits p{
+    visibility: hidden;
+    margin-top: 1px;
+    color: red;
+}
+.selected{
+    background-color: rgb(11, 120, 69);
+}
