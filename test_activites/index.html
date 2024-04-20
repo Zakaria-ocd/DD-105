@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activities</title>
-    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="output.css">
 </head>
 <body >
     <form >
-        <label>Saisir votre code</label><br>
-        <input class="code bg-slate-500" type="text">
+        <label>Saisir votre id</label><br>
+        <input class="idInput bg-slate-500" type="text"><br><br>
+        <button class="searchBtn">Search</button><br><br>
         <div>
-            
+            <label >Select activity</label><br>
+            <select class="select_activites  bg-slate-500"></select><br>
+            <label >Nombre de jours</label><br>
+            <input class="nbrJours  bg-slate-500" type="number"><br>
+            <label>Date début</label><br>
+            <input type="date" class="dateDebut bg-slate-500"><br>
+            <button class="ajouter">Ajouter</button>
         </div>
     </form>
+    <div>
+    <table border="1">
+        <thead>
+            <th>ID</th>
+            <th>Prenom</th>
+            <th>Nom</th>
+            <th>Activite</th>
+            <th>NbrJours</th>
+            <th>dateDebut</th>
+        </thead>
+        <tbody></tbody>
+    </table><br>
+    <button class="supprimerBtn">Supprimer</button>
+    <button class="modifierBtn">Modifier</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

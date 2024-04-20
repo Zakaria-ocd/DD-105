@@ -1,0 +1,48 @@
+{
+    "Stagiaires":[{
+        "id":1,
+        "nom":"Ouchouid",
+        "prenom":"Zakaria",
+        "age":18,
+        "branche":"DD105"
+    },{
+        "id":2,
+        "nom":"Hilmi",
+        "prenom":"Ilyss",
+        "age":19,
+        "branche":"DD104"
+    },{
+        "id":3,
+        "nom":"Iderissi",
+        "prenom":"Aymen",
+        "age":22,
+        "branche":"DD106"
+    },{
+        "id":4,
+        "nom":"Mifdal",
+        "prenom":"Ilyas",
+        "age":18,
+        "branche":"DD105"
+    },{
+        "id":5,
+        "nom":"Hekki",
+        "prenom":"Haitam",
+        "age":23,
+        "branche":"DD103"
+    },{
+        "id":6,
+        "nom":"moutan",
+        "prenom":"Anouar",
+        "age":20,
+        "branche":"DD101"
+    }
+],
+"Activities":[
+    {"id":1,"libelle":"Sortie"},
+    {"id":2,"libelle":"Football"},
+    {"id":3,"libelle":"HandBall"},
+    {"id":4,"libelle":"Swiming"},
+    {"id":5,"libelle":"Drawing"},
+    {"id":6,"libelle":"Invention"}
+]
+}
