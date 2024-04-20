@@ -4,37 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activities</title>
-    <link rel="stylesheet" href="output.css">
+    <link href="../src/output.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
 </head>
-<body >
-    <form >
-        <label>Saisir votre id</label><br>
-        <input class="idInput bg-slate-500" type="text"><br><br>
-        <button class="searchBtn">Search</button><br><br>
-        <div>
-            <label >Select activity</label><br>
-            <select class="select_activites  bg-slate-500"></select><br>
-            <label >Nombre de jours</label><br>
-            <input class="nbrJours  bg-slate-500" type="number"><br>
-            <label>Date début</label><br>
-            <input type="date" class="dateDebut bg-slate-500"><br>
-            <button class="ajouter">Ajouter</button>
+<body class="bg-gray-100">
+    <form class="max-w-md mx-auto mt-8 p-4 bg-white rounded-lg shadow-md">
+        <label class="block ">Saisir votre ID</label>
+        <input class="idInput block w-full mt-1 mb-4 px-4 py-2 rounded-lg bg-gray-200 focus:outline-none focus:bg-white focus:ring-2 focus:ring-blue-500" type="number">
+        
+        <button class="searchBtn block w-full bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">Search</button>
+        
+        <div class="mt-4">
+            <label class="block">Select activity</label>
+            <select class="select_activites block w-full mt-1 mb-4 px-4 py-2 rounded-lg bg-gray-200 focus:outline-none focus:bg-white focus:ring-2 focus:ring-blue-500">
+                <!-- Options here -->
+            </select>
+            
+            <label class="block">Nombre de jours</label>
+            <input class="nbrJours block w-full mt-1 mb-4 px-4 py-2 rounded-lg bg-gray-200 focus:outline-none focus:bg-white focus:ring-2 focus:ring-blue-500" type="number">
+            
+            <label class="block">Date début</label>
+            <input type="date" class="dateDebut block w-full mt-1 mb-4 px-4 py-2 rounded-lg bg-gray-200 focus:outline-none focus:bg-white focus:ring-2 focus:ring-blue-500">
+            
+            <input type="checkbox" class="validation mr-2 size-4">
+            <label  class=" mr-2">Valider</label><br><br>
+            <button class="ajouter bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">Ajouter</button>
         </div>
     </form>
-    <div>
-    <table border="1">
-        <thead>
-            <th>ID</th>
-            <th>Prenom</th>
-            <th>Nom</th>
-            <th>Activite</th>
-            <th>NbrJours</th>
-            <th>dateDebut</th>
-        </thead>
-        <tbody></tbody>
-    </table><br>
-    <button class="supprimerBtn">Supprimer</button>
-    <button class="modifierBtn">Modifier</button>
+    
+    <div class="max-w-4xl mx-auto mt-8 p-4 bg-white rounded-lg shadow-md">
+        <table class="w-full mb-4" border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nom</th>
+                    <th>Prenom</th>
+                    <th>Age</th>
+                    <th>Branche</th>
+                    <th>Activite</th>
+                    <th>Nombre de jours</th>
+                    <th>Date de début</th>
+                    <th>Validation</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button class="supprimerBtn bg-red-500 text-white font-bold py-2 px-4 rounded hover:bg-red-700 mr-2">Supprimer</button>
+        <button class="modifierBtn bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-700">Modifier</button>
     </div>
     <script src="script.js"></script>
 </body>
