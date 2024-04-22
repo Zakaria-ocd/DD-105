@@ -13,12 +13,14 @@ st.push(8)
 st.unshift("hmd")
 delete st[7]
 console.log(st.length)
+console.log(st)
+console.log(st[7])
 st[11]=111
 st.pop()
 st.shift()
 console.log(st)
 let vdat =new Date()
-console.log(vdat.getFullYear())
+console.log(vdat.getDate())
 console.log(stagiaire);
 stagiaire.nom = "Ahmed";
 stagiaire.branche="DD"
@@ -54,16 +56,16 @@ stagiaires.pop()
 stagiaires.shift()
 console.log(stagiaires)
 const modules=["Algo","POO","CSS","HTML","Algo"]
-modules.splice(4,1)
+modules.splice(3,1)
 console.log(modules)
 modules.sort()
 console.log(modules)
 modules.reverse()
 console.log(modules)
-const md=modules.find(function(item){
-return item==="Algo"
-})
-console.log(md.indexOf())
+// const md=modules.find(function(item){
+// return item==="Algo"
+// })
+// console.log(md.indexOf())
 // const md=modules.filter(function(item){
 //   return item==="Algo"
 // });

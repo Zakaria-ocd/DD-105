@@ -9,7 +9,7 @@ function Stagiare(nom,prenom,age,branche){
   }
 }
 const stagiare2 =new Stagiare("Zizo","Ahmed",19,"DD")
-stagiare1={
+let stagiare1={
   nom:"Ouchouid",
   prenom:"Zakaria",
   age:18,
@@ -21,7 +21,7 @@ stagiare1={
 console.log(stagiare1.nom)
 console.log(stagiare1.branche)
 stagiare1.presenter()
-console.log(stagiare2.presenter())
+stagiare2.presenter()
 function Achat(id,nom,contitec,prix){
   this.id= id;
   this.nom=nom;
@@ -61,7 +61,7 @@ console.log(nom.startsWith("D"))
 console.log(nom.endsWith("3"))
 console.log(nom.indexOf("e"))
 console.log(nom.lastIndexOf("e"))
-console.log(nom.split())
+console.log(nom.split("e"))
 console.log(Array.from(nom))
 let phrase="Iea-t-an-apple"
 console.log(phrase.split("-"))
@@ -71,7 +71,8 @@ console.log(vDate.getMonth())
 console.log(vDate.getDate())
 console.log(vDate.getDay())
 console.log(vDate.getHours())
-let vDatey= new Date("2006-02-24")
-console.log(vDate)
-vDatey.setMonth("04")
+let vDatey= new Date("2006-01-24")
+console.log(vDate.toString())
+vDatey.setMonth("03")
 console.log(vDatey)
+console.log(vDatey.getMonth())

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .danger{
+            background-color: red;
+        }
+        .success{
+            background-color: green;
+        }
+    </style>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<div class="container mx-auto p-8">
+    <fieldset class="bg-white shadow-lg rounded-lg p-8">
+        <legend class="text-lg font-bold">Nouvelle ligne :</legend>
+        <form action="">
+        <div class="mb-4">
+        <label  class="block">ID :</label>
+        <input class="idInput input rounded-lg shadow-xl border-2 border-yellow-400" type="number">
+        <button class="lireBtn w-16 bg-yellow-400   rounded-full text-white ml-2">Lire</button>
+        </div>
+        <div class="mb-4">
+        <label class="block">Nom :</label>
+        <input  class="nomInput input rounded-lg shadow-xl border-2 border-yellow-400" type="text" placeholder="Nom du stagiaire">
+        </div>
+        <div class="mb-4">
+        <label class="block">Filière :</label>
+        <input type="radio" class="radio" value="TDI" id="TDI" name="Filière">
+        <label class="mr-4">TDI</label>
+        <input id="TDM" class="radio" value="TDM" name="Filière" type="radio">
+        <label class="mr-4">TDM</label>
+        <input id="TRJ" class="radio" value="TRJ" name="Filière" type="radio">
+        <label >TRJ</label>
+        </div>
+        <div class="mb-4">
+        <label class="block">Note :</label>
+        <input class="noteInput input rounded-lg shadow-xl border-2 border-yellow-400" type="text">
+        </div>
+        <button class="ajouter w-36 h-8 btn bg-blue-800 rounded-full text-white">Ajouter la note</button>
+        </form>
+    </fieldset>
+    <h1 class="text-2xl font-bold mt-8">Liste des notes</h1>
+    <table class="w-200px table-auto" >
+        <thead>
+            <tr>
+                <th class="px-4 py-2">ID</th>
+                <th class="px-4 py-2">NOM</th>
+                <th class="px-4 py-2">NOTE</th>
+                <th class="px-4 py-2">FILIERE</th>
+                <th class="px-4 py-2">GESTION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="px-4 py-2">1</td>
+                <td class="px-4 py-2">Alami Hicham</td>
+                <td class="px-4 py-2">5</td>
+                <td class="px-4 py-2">TDI</td>
+                <td class="px-4 py-2"><button class="supprimer w-24 bg-red-500 rounded-full text-white">Supprimer</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
