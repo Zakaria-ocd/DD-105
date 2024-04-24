@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-decoration:underline;">Annonce Vente Voiture</h1>
+    <form action="">
+        <label for="">Matricule :</label>
+        <input class="inputMatricule"  type="text"><br><br>
+        <label for="">Marque : </label>
+        <input class="inputMarque"  type="text"><br><br>
+        <label for="">Modèle : </label>
+        <input class="inputModèle"  type="text"><br><br>
+        <label for="">AnnéeProd : </label>
+        <input class="inputAnnéeProd"  type="date"><br><br>
+        <label for="">Carburant : </label>
+        <input class="inputCarburant"  type="text"><br><br>
+        <label for="">Prix : </label>
+        <input class="inputPrix"  type="number"><br><br>
+        <button class="consulterBtn">Consulter</button>
+        <button class="enregistrerBtn">Enregistrer</button>
+    </form>
+    <table border="1" style="display: none;">
+        <thead>
+            <tr>
+                <th>Matricule :</th>
+                <th>Marque :</th>
+                <th>Modèle :</th>
+                <th>AnnéeProd :</th>
+                <th>Carburant :</th>
+                <th>Prix :</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,17 +1,24 @@
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusantium vitae laboriosam qui adipisci veniam unde reprehenderit et dolorem nihil. Blanditiis facilis facere pariatur amet rerum expedita culpa voluptatibus optio.
-[abc]
+[aAbc]
 [a-zA-Z]
 [a-z][b]
 [a-z][a-z][abc]
 \b[a-é][1,5],b
 Les éxpressions régulières
 ZZ102
-DD101
+DD10112
 DD102
 DD103
 DD 104
 DD105
 ID106
+a999l
+D105
+google
+ggle
+goooogle
+gle
+bbaaaaa
 [A-Z]{2}[0-9]{3}
 [I,D][D][0-9]{3}
 amine 
@@ -24,3 +31,4 @@ amin
 29/04/2021
 29-04-2021
 29-04-2021
+[0-9]{2}[/-][0-9]{4}
