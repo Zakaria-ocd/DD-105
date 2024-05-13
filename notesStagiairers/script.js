@@ -134,3 +134,7 @@ function actualiserNoteMax(){
     trs+=`<tr><td class="px-4 py-2" rowspan=2 colspan=2>LA MEILLEUR NOTE<td>
     <td class="px-4 py-2">${noteMax}</td></tr>`
 }
+let modules= document.querySelectorAll(".nomduleInput:checked");
+for(let i=0;i<modules.length;i++){
+console.log(modules[i].value);
+}

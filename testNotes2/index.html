@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Stagiaires</legend>
+        <form action="">
+            <label for="id">ID:</label><br>
+            <input  type="text" name="id" id="id"><br>
+            <label for="nom">Nom:</label><br>
+            <input  type="text" name="nom" id="nom"><br>
+            <label for="note">Note:</label><br>
+            <input  type="text" name="note" id="note"><br><br>
+            <label for="groupe">groupe:</label>
+            <select name="groupe" id="groupe"></select><br><br>
+            <label for="filiere">filiere</label>
+            <input value="tdi" type="radio" id="tdi" name="filiere">
+            <label for="tdi">TDI</label>
+            <input value="tdm" type="radio" id="tdm" name="filiere">
+            <label for="tdm">TDM</label>
+            <input value="trj" type="radio" id="trj" name="filiere">
+            <label for="trj">TRJ</label><br>
+            <label for="matieres">Matieres:</label>
+            <input value="php" type="checkbox" id="php" name="matieres">
+            <label for="php">PHP</label>
+            <input value="javascript" type="checkbox" id="javascript" name="matieres">
+            <label for="javascript">JAVASCRIPT</label>
+            <input value="python" type="checkbox" id="python" name="matieres">
+            <label for="python">PYTHON</label>
+            <button id="ajouter">ajouter</button>
+        </form>
+    </fieldset><br>
+    <table border="1">
+        <thead>
+            <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Note</th>
+            <th>Groupe</th>
+            <th>Filiere</th>
+            <th>Matieres</th>
+            <th>decision</th>
+            <th>gestion</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Meilleur note</td>
+                <td colspan="6" id="meilleurNote"></td>
+            </tr>
+        </tfoot>
+    </table>
+    <label for="">Saisir nomProd</label>
+    <input type="text" id="nomProd">
+    <button id="btnn">btnn</button>
+    <script src="script.js" ></script>
+</body>
+</html>

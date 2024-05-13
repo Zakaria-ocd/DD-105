@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<fieldset>
+    <legend>Stagiaires</legend>
+    <form action="">
+        <label for="id">ID:</label><br>
+        <input type="text" name="id" id="id"><br>
+        <label for="nom">Nom:</label><br>
+        <input type="text" name="nom" id="nom"><br>
+        <label for="notes">Note:</label><br>
+        <input type="number" name="note" id="note"><br><br>
+        <label for="filiere">Filiere:</label>
+        <input type="radio" name="filiere" id="TDI" value="TDI">
+        <label for="filiere">TDI</label>
+        <input type="radio" name="filiere" id="TDM" value="TDM">
+        <label for="filiere">TDM</label>
+        <input type="radio"name="filiere" id="TRJ" value="TRJ">
+        <label for="filiere">TRJ</label><br><br>
+        <label for="groupe">Groupe :</label>
+        <select name="groupe" id="groupe"></select><br><br>
+        <label for="matiere">Matière :</label>
+        <input name="matiere" id="javascript" value="JAVASCRIPT" type="checkbox">
+        <label for="JAVASCRIPT">JAVASCRIPT</label>
+        <input name="matiere" id="php" value="PHP"  type="checkbox">
+        <label for="php">PHP</label>
+        <input name="matiere" id="python" value="PYTHON" type="checkbox">
+        <label for="python">PYTHON</label><br><br>
+        <button id="ajouter">Ajouter</button>
+    </form>
+</fieldset>
+<h1>Listes des notes</h1>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Note</th>
+            <th>Filiere</th>
+            <th>Groupe</th>
+            <th>Matière</th>
+            <th>Decision</th>
+            <th>Gestion</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<script src="script.js"></script>
+</body>
+</html>
