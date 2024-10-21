@@ -1,0 +1,28 @@
+{
+    "stagiaire":[
+      {
+        "nom": "nom1",
+        "prenom": "prenom1",
+        "age": 1,
+        "groupe": 111
+      },
+      {
+        "nom": "nom2",
+        "prenom": "prenom2",
+        "age": 2,
+        "groupe": 222
+      },
+      {
+        "nom": "nom3",
+        "prenom": "prenom3",
+        "age": 3,
+        "groupe": 333
+      },
+      {
+        "nom": "nom4",
+        "prenom": "prenom4",
+        "age": 4,
+        "groupe": 444
+      }
+    ]
+}

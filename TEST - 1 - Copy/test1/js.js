@@ -14,7 +14,7 @@
 // request.open("GET", "file.json", true);
 // request.onreadystatechange = function () {
 //   if(this.readyState==4 && this.status==200){
-//     console.log(this.response)
+//     console.log(this.response)!
 //       data =JSON.parse(this.response)
 //       user = data.user
 //       content="<ul>";

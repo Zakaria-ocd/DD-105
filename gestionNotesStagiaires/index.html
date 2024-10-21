@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <style>
+        .danger{
+            background-color: red;
+        }
+        .success{
+            background-color: green;
+        }
+        p{visibility:hidden ;}
+    </style>
+</head>
+<body>
+    <h1 class="text-red-900">Notes des stagiaires</h1>
+    <fieldset  style="width: 600px;">
+        <legend>Nouvelle ligne :</legend>
+        <form action="">
+            <label for="">ID :</label>
+            <input type="number" name="id" id="inputId">
+            <button type="submit">Lire</button>
+            <p  id="idParagraph" style="color: red;margin-top: 4px;">L'Id est incorrect</p>
+            <label for="">Nom :</label>
+            <input type="text" name="id" id="inputNom" placeholder="Nom du stagiaire">
+            <p id="nomParagraph" style="color: red;margin-top: 4px;">Le nom est incorrect</p>
+            <label for="">Filière :</label>
+            <input type="radio" name="filiere" value="TDI" id="tdi">
+            <label for="">TDI</label>
+            <input type="radio" name="filiere" value="TDM" id="tdm">
+            <label for="">TDM</label>
+            <input type="radio" name="filiere"  value="TRJ" id="trj">
+            <label for="">TRJ</label><br><br>
+            <label for="">Note</label>
+            <input type="number"  id="inputNote" name="note">
+            <p id="noteParagraph" style="color: red;;margin-top: 4px;">Le nombre est incorrect</p>
+            <button type="submit" id="addStagiaire">Ajouter la note</button>
+        </form>
+    </fieldset>
+    <h1>Liste des notes</h1>
+    <table border="1" style="width: 600px;">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NOM</th>
+                <th>NOTE</th>
+                <th>FILIERE</th>
+                <th>GESTION</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

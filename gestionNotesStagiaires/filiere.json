@@ -1,0 +1,22 @@
+{
+    "stagiaires":[
+        {"id":1,"nom":"Zizo","prenom":"P11111111","groupe":"DD101"},
+        {"id":2,"nom":"N222222","prenom":"P2222222222222","groupe":"DD102"},
+        {"id":3,"nom":"N3333333","prenom":"P333333333","groupe":"DD103"},
+        {"id":4,"nom":"N444444444","prenom":"P444444444","groupe":"DD104"},
+        {"id":5,"nom":"N5555555555","prenom":"P5555555","groupe":"DD105"},
+        {"id":6,"nom":"N66666666","prenom":"P666666666","groupe":"DD106"}
+    ]
+    ,
+    "filiere":[
+        {"id":"1","intitule":"f1"},
+        {"id":"2","intitule":"f2"},
+        {"id":"3","intitule":"f3"},
+        {"id":"4","intitule":"f4"},
+        {"id":"5","intitule":"f5"},
+        {"id":"6","intitule":"f6"},
+        {"id":"7","intitule":"f7"}
+    ]
+        
+    
+}
